@@ -19,6 +19,8 @@ public class WebApplication {
         SpringApplication.run(WebApplication.class, args);
     }
 
+    // git-hub test
+
     @Bean
     public CommandLineRunner runner(UserRepository userRepository, BoardRepository boardRepository) throws Exception {
         return (args) -> {
