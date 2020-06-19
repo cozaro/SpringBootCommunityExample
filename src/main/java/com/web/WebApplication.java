@@ -16,6 +16,7 @@ import java.util.stream.IntStream;
 @SpringBootApplication
 public class WebApplication {
     public static void main(String[] args){
+        System.out.println("Github test");
         SpringApplication.run(WebApplication.class, args);
     }
 
